@@ -1,7 +1,11 @@
+import About from "@/components/about";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-<div className="">
-  <p>Hello world</p>
-</div>  );
+    <>
+    <About/>
+    <Footer/>
+    </>
+   );
 }
